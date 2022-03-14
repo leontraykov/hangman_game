@@ -48,6 +48,7 @@ class Game
   def lost?
     errors_allowed == 0
   end
+  
   # замена Ё на Е и Й на И
   def normalize_letter(letter)
     case letter
@@ -89,5 +90,4 @@ class Game
   def word
     @letters.join
   end
-
 end
