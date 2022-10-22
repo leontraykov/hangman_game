@@ -10,7 +10,7 @@ class ConsoleInterface
 
   def print_out
     puts "Слово: #{word_to_show}".light_green
-    puts "#{figure}".light_cyan
+    puts figure.light_cyan
     puts "Ошибки (#{@game.errors_made}): #{errors_to_show}".light_red
     puts "У вас осталось ошибок: #{@game.errors_allowed}".white
 
