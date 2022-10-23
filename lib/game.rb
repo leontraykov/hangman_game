@@ -56,10 +56,10 @@ class Game
 
   def normalize_letter(letter)
     case letter
-    when 'Ё'
-      'Е'
-    when 'Й'
-      'И'
+    when "Ё"
+      "Е"
+    when "Й"
+      "И"
     else
       letter
     end
